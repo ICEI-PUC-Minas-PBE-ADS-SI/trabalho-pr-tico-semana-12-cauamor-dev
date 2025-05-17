@@ -61,8 +61,69 @@
                             </div>
 
                             <div class="mb-3">
-                                <label for="imagem" class="form-label">Imagem Principal</label>
-                                <input type="file" class="form-control" id="imagem" name="imagem" accept="image/*">
+                                <label for="imagem_principal" class="form-label">Imagem Principal</label>
+                                <div class="input-group">
+                                    <input type="file" class="form-control" id="arquivo_principal" name="arquivo_principal" accept="image/*" onchange="previewImagem(this, 'preview_principal')">
+                                    <input type="text" class="form-control mt-2" id="imagem_principal" name="imagem_principal" placeholder="URL da imagem">
+                                </div>
+                                <img id="preview_principal" class="img-preview mt-2" style="display: none; max-width: 100%; height: auto;">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="categoria" class="form-label">Categoria</label>
+                                <select class="form-select" id="categoria" name="categoria">
+                                    <option value="">Selecione uma categoria</option>
+                                    <option value="Educação">Educação</option>
+                                    <option value="Tecnologia">Tecnologia</option>
+                                    <option value="Eventos">Eventos</option>
+                                    <option value="Pesquisa">Pesquisa</option>
+                                    <option value="Outros">Outros</option>
+                                </select>
+                            </div>
+
+                            <!-- Nova seção para galeria de fotos -->
+                            <div class="mb-3">
+                                <h4>Galeria de Fotos</h4>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label for="imagem1" class="form-label">Imagem 1</label>
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="arquivo1" name="arquivo1" accept="image/*" onchange="previewImagem(this, 'preview1')">
+                                                <input type="text" class="form-control mt-2" id="imagem1" name="imagem1" placeholder="URL da imagem">
+                                            </div>
+                                            <img id="preview1" class="img-preview mt-2" style="display: none; max-width: 100%; height: auto;">
+                                            <input type="text" class="form-control mt-2" id="descricao1" name="descricao1" placeholder="Descrição da imagem">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label for="imagem2" class="form-label">Imagem 2</label>
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="arquivo2" name="arquivo2" accept="image/*" onchange="previewImagem(this, 'preview2')">
+                                                <input type="text" class="form-control mt-2" id="imagem2" name="imagem2" placeholder="URL da imagem">
+                                            </div>
+                                            <img id="preview2" class="img-preview mt-2" style="display: none; max-width: 100%; height: auto;">
+                                            <input type="text" class="form-control mt-2" id="descricao2" name="descricao2" placeholder="Descrição da imagem">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label for="imagem3" class="form-label">Imagem 3</label>
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="arquivo3" name="arquivo3" accept="image/*" onchange="previewImagem(this, 'preview3')">
+                                                <input type="text" class="form-control mt-2" id="imagem3" name="imagem3" placeholder="URL da imagem">
+                                            </div>
+                                            <img id="preview3" class="img-preview mt-2" style="display: none; max-width: 100%; height: auto;">
+                                            <input type="text" class="form-control mt-2" id="descricao3" name="descricao3" placeholder="Descrição da imagem">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="destaque" name="destaque">
+                                <label class="form-check-label" for="destaque">Destacar na página inicial</label>
                             </div>
 
                             <button type="submit" class="btn btn-primary">Cadastrar Notícia</button>
@@ -88,7 +149,7 @@
                                         <th>Ações</th>
                                     </tr>
                                 </thead>
-                                <tbody id="tabelaNoticias">
+                                <tbody id="listaNoticias">
                                     <!-- As notícias serão inseridas aqui via JavaScript -->
                                 </tbody>
                             </table>

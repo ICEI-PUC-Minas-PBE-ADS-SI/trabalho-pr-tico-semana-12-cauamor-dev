@@ -36,7 +36,7 @@ Nesta atividade, você irá completar o projeto anterior permitindo cadastrar e 
 
 **Print da aba NETWORK com requisições Fetch/XHR de POST**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<Fetch XHR.png>)
 
 ## **Orientações Gerais**
 

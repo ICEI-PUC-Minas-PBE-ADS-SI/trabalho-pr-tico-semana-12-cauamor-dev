@@ -13,7 +13,7 @@ async function carregarNoticias() {
                         <img src="${noticia.imagem_principal}" class="card-img-top" alt="${noticia.titulo}">
                         <div class="card-body">
                             <h5 class="card-title">${noticia.titulo}</h5>
-                            <p class="card-text">${noticia.descricao}</p>
+                            <p class="card-text">${noticia.resumo || noticia.descricao}</p>
                             <a href="detalhes.html?id=${noticia.id}" class="btn btn-primary">Ler mais</a>
                         </div>
                         <div class="card-footer">
@@ -41,24 +41,26 @@ async function carregarDetalhesNoticia() {
         document.querySelector('.noticia-imagem').src = noticia.imagem_principal;
         document.querySelector('.noticia-conteudo').textContent = noticia.conteudo;
         document.querySelector('.noticia-autor').textContent = `Por ${noticia.autor}`;
-        document.querySelector('.noticia-categoria').textContent = noticia.categoria;
+        document.querySelector('.noticia-categoria').textContent = noticia.categoria || '';
         document.querySelector('.noticia-data').textContent = new Date(noticia.data).toLocaleDateString();
         // Carregar imagens complementares
         const galeriaContainer = document.querySelector('.galeria-imagens');
-        galeriaContainer.innerHTML = '';
-        noticia.imagens_complementares.forEach(img => {
-            const imgElement = `
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="${img.src}" class="card-img-top" alt="${img.descricao}">
-                        <div class="card-body">
-                            <p class="card-text">${img.descricao}</p>
+        if (galeriaContainer && noticia.imagens_complementares) {
+            galeriaContainer.innerHTML = '';
+            noticia.imagens_complementares.forEach(img => {
+                const imgElement = `
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="${img.src}" class="card-img-top" alt="${img.descricao}">
+                            <div class="card-body">
+                                <p class="card-text">${img.descricao}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            `;
-            galeriaContainer.innerHTML += imgElement;
-        });
+                `;
+                galeriaContainer.innerHTML += imgElement;
+            });
+        }
     } catch (erro) {
         document.querySelector('main').innerHTML = '<p>Notícia não encontrada.</p>';
     }
@@ -96,7 +98,7 @@ async function carregarDestaques() {
                         <img src="${noticia.imagem_principal}" class="d-block w-100" alt="${noticia.titulo}">
                         <div class="carousel-caption">
                             <h3>${noticia.titulo}</h3>
-                            <p>${noticia.descricao}</p>
+                            <p>${noticia.resumo || noticia.descricao}</p>
                         </div>
                     </a>
                 </div>
