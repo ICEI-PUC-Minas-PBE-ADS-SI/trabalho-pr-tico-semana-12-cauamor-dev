@@ -5,10 +5,10 @@ Nesta atividade, você irá completar o projeto anterior permitindo cadastrar e 
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Cauã Moreira Martins
+- Matricula: 00878733-
+- Proposta de projeto escolhida: Portal de Notícias
+- Breve descrição sobre seu projeto: Puc News, um portal de notícias da puc
 
 **Print do testes da API com Postman ou similar**
 
