@@ -1,22 +1,6 @@
 {
   "noticias": [
     {
-      "id": 1,
-      "titulo": "A felicidade global atinge o maior nível desde a pandemia",
-      "descricao": "A pontuação de felicidade subiu para 71 em 100, refletindo um aumento no otimismo global.",
-      "conteudo": "De acordo com o relatório Gallup Global Emotions de 2024, as emoções positivas no mundo retornaram aos níveis pré-pandemia, marcando o maior índice desde 2020. A pontuação de felicidade subiu para 71 em 100, refletindo um aumento no otimismo global. Jovens, especialmente, demonstraram resiliência notável, recuperando-se mais rapidamente do que os adultos mais velhos. Apesar dos desafios globais, essa tendência indica uma recuperação emocional significativa em escala mundial.",
-      "categoria": "Mundo",
-      "autor": "Julie Ray",
-      "destaque": false,
-      "data": "2024-04-25",
-      "imagem_principal": "imagens/felicidade.png",
-      "imagens_complementares": [
-        { "id": 1, "src": "imagens/pessoasfeliz.jpg", "descricao": "Felicidade contagiante" },
-        { "id": 2, "src": "imagens/pessoasfelizmundo.png", "descricao": "Pessoas felizes em todo o mundo" },
-        { "id": 3, "src": "imagens/mapafelicidade.jpg", "descricao": "Mapa de índices de felicidade" }
-      ]
-    },
-    {
       "id": 2,
       "titulo": "Avanços na Tecnologia de Energia Solar",
       "descricao": "Novo tipo de painel solar alcança eficiência recorde de conversão de energia.",
@@ -27,9 +11,21 @@
       "data": "2024-04-24",
       "imagem_principal": "imagens/solar.jpg",
       "imagens_complementares": [
-        { "id": 1, "src": "imagens/solares.jpg", "descricao": "Painel solar em operação" },
-        { "id": 2, "src": "imagens/solares3.jpg", "descricao": "Crescimento da tecnologia solar" },
-        { "id": 3, "src": "imagens/solares2.jpg", "descricao": "Novo design de painel solar" }
+        {
+          "id": 1,
+          "src": "imagens/solares.jpg",
+          "descricao": "Painel solar em operação"
+        },
+        {
+          "id": 2,
+          "src": "imagens/solares3.jpg",
+          "descricao": "Crescimento da tecnologia solar"
+        },
+        {
+          "id": 3,
+          "src": "imagens/solares2.jpg",
+          "descricao": "Novo design de painel solar"
+        }
       ]
     },
     {
@@ -43,9 +39,21 @@
       "data": "2024-04-23",
       "imagem_principal": "imagens/medicina1.jpg",
       "imagens_complementares": [
-        { "id": 1, "src": "imagens/medicina2.jpg", "descricao": "Imagem de ressonância cerebral" },
-        { "id": 2, "src": "imagens/medicina3.jpg", "descricao": "Aumento na melhora dos pacientes" },
-        { "id": 3, "src": "imagens/meicina4.jpg", "descricao": "Laboratório de nanotecnologia" }
+        {
+          "id": 1,
+          "src": "imagens/medicina2.jpg",
+          "descricao": "Imagem de ressonância cerebral"
+        },
+        {
+          "id": 2,
+          "src": "imagens/medicina3.jpg",
+          "descricao": "Aumento na melhora dos pacientes"
+        },
+        {
+          "id": 3,
+          "src": "imagens/meicina4.jpg",
+          "descricao": "Laboratório de nanotecnologia"
+        }
       ]
     },
     {
@@ -59,9 +67,21 @@
       "data": "2024-04-22",
       "imagem_principal": "imagens/dinossauro1.png",
       "imagens_complementares": [
-        { "id": 1, "src": "imagens/fossil.png", "descricao": "Fóssil recém-descoberto" },
-        { "id": 2, "src": "imagens/local.jpg", "descricao": "Uberaba, Minas Gerais" },
-        { "id": 3, "src": "imagens/dinossauro3.jpg", "descricao": "Equipe de paleontólogos no campo" }
+        {
+          "id": 1,
+          "src": "imagens/fossil.png",
+          "descricao": "Fóssil recém-descoberto"
+        },
+        {
+          "id": 2,
+          "src": "imagens/local.jpg",
+          "descricao": "Uberaba, Minas Gerais"
+        },
+        {
+          "id": 3,
+          "src": "imagens/dinossauro3.jpg",
+          "descricao": "Equipe de paleontólogos no campo"
+        }
       ]
     },
     {
@@ -75,9 +95,21 @@
       "data": "2024-04-21",
       "imagem_principal": "imagens/ia.jpg",
       "imagens_complementares": [
-        { "id": 1, "src": "imagens/ia2.jpg", "descricao": "Interface do sistema EmotiAI" },
-        { "id": 2, "src": "imagens/labia.jpg", "descricao": "Centro de desenvolvimento de IA" },
-        { "id": 3, "src": "imagens/tstia.jpg", "descricao": "Testes de reconhecimento emocional" }
+        {
+          "id": 1,
+          "src": "imagens/ia2.jpg",
+          "descricao": "Interface do sistema EmotiAI"
+        },
+        {
+          "id": 2,
+          "src": "imagens/labia.jpg",
+          "descricao": "Centro de desenvolvimento de IA"
+        },
+        {
+          "id": 3,
+          "src": "imagens/tstia.jpg",
+          "descricao": "Testes de reconhecimento emocional"
+        }
       ]
     },
     {
@@ -91,9 +123,21 @@
       "data": "2024-04-20",
       "imagem_principal": "imagens/agua1.jpg",
       "imagens_complementares": [
-        { "id": 1, "src": "imagens/agua2.png", "descricao": "Equipe de pesquisa em alto mar" },
-        { "id": 2, "src": "imagens/agua3.png", "descricao": "Veículo submarino utilizado na descoberta" },
-        { "id": 3, "src": "imagens/agua4.png", "descricao": "Localização da descoberta no Atlântico" }
+        {
+          "id": 1,
+          "src": "imagens/agua2.png",
+          "descricao": "Equipe de pesquisa em alto mar"
+        },
+        {
+          "id": 2,
+          "src": "imagens/agua3.png",
+          "descricao": "Veículo submarino utilizado na descoberta"
+        },
+        {
+          "id": 3,
+          "src": "imagens/agua4.png",
+          "descricao": "Localização da descoberta no Atlântico"
+        }
       ]
     },
     {
@@ -107,9 +151,21 @@
       "data": "2024-04-19",
       "imagem_principal": "imagens/amz1.png",
       "imagens_complementares": [
-        { "id": 1, "src": "imagens/amz2.png", "descricao": "Imagem do escaneamento LiDAR" },
-        { "id": 2, "src": "imagens/amz3.png", "descricao": "Estruturas arqueológicas encontradas" },
-        { "id": 3, "src": "imagens/amz4.png", "descricao": "Equipe de arqueólogos em campo" }
+        {
+          "id": 1,
+          "src": "imagens/amz2.png",
+          "descricao": "Imagem do escaneamento LiDAR"
+        },
+        {
+          "id": 2,
+          "src": "imagens/amz3.png",
+          "descricao": "Estruturas arqueológicas encontradas"
+        },
+        {
+          "id": 3,
+          "src": "imagens/amz4.png",
+          "descricao": "Equipe de arqueólogos em campo"
+        }
       ]
     },
     {
@@ -123,9 +179,21 @@
       "data": "2024-04-18",
       "imagem_principal": "imagens/agl1.png",
       "imagens_complementares": [
-        { "id": 1, "src": "imagens/agl2.png", "descricao": "Campo experimental no deserto" },
-        { "id": 2, "src": "imagens/agl3.png", "descricao": "Sistema de irrigação inteligente" },
-        { "id": 3, "src": "imagens/agl4.jpg", "descricao": "Primeira colheita no projeto piloto" }
+        {
+          "id": 1,
+          "src": "imagens/agl2.png",
+          "descricao": "Campo experimental no deserto"
+        },
+        {
+          "id": 2,
+          "src": "imagens/agl3.png",
+          "descricao": "Sistema de irrigação inteligente"
+        },
+        {
+          "id": 3,
+          "src": "imagens/agl4.jpg",
+          "descricao": "Primeira colheita no projeto piloto"
+        }
       ]
     }
   ]

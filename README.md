@@ -12,13 +12,27 @@ Nesta atividade, você irá completar o projeto anterior permitindo cadastrar e 
 
 **Print do testes da API com Postman ou similar**
 
-<<  COLOQUE A IMAGEM GET AQUI >>
+<< Get >>
 
-<<  COLOQUE A IMAGEM POST AQUI >>
+![alt text](<Postman GET.png>)
 
-<<  COLOQUE A IMAGEM PUT AQUI >>
+<< Post >>
 
-<<  COLOQUE A IMAGEM DELETE AQUI >>
+![alt text](<Postman POST.png>)
+
+![alt text](<Metodo POST.png>)
+
+<< Put >>
+
+![alt text](<Postman PUT.png>)
+
+![alt text](<Metodo PUT.png>)
+
+<< Delete >>
+
+![alt text](<Postaman DELETE.png>)
+
+![alt text](<Metodo DELETE.png>)
 
 **Print da aba NETWORK com requisições Fetch/XHR de POST**
 
